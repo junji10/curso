@@ -22,4 +22,5 @@ module.exports = app => {
     return {
         authenticate: () => passport.authenticate('jwt', { session: false })
     }
+    
 }
